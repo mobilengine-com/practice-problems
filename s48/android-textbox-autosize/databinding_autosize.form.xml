@@ -1,0 +1,6 @@
+<Form name="databinding_autosize" description="databinding_autosize">
+	<Control type="panel" name="root">
+		<Control type="textbox" name="t1" label="input" size="large" />
+		<Control type="textbox" name="t2" label="output" size="large" reference="=@1" ref_arg="../t1" />
+	</Control>
+</Form>

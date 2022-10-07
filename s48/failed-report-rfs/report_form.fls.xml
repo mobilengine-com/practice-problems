@@ -1,0 +1,3 @@
+﻿<form id='report_form' menuName='report_form' title='report_form' platforms='ios web' xmlns='http://schemas.mobilengine.com/fls/v2'>
+	<textview text='Submit this form to start a failing report' />
+</form>

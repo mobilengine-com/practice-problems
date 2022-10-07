@@ -1,0 +1,16 @@
+<Form name='view_files_android' description='view_files_android' typed='true' autoform='true' dateformat='(dtf yyyy"-"MM"-"dd" "HH":"mm":"ss"."S)' numberformat='{decimalSeparator:"."}' sillyNulls='false' inlineReference='true'>
+	<Control name='root' type='panel'>
+		<Control type='label' label='Background download progress:' text='{
+			SELECT 
+				CASE 
+					WHEN @backgroundDownloadProgress IS NULL THEN "NULL" 
+					ELSE CAST(@backgroundDownloadProgress AS TEXT) || "%"
+				END
+			}' />
+
+		<Control type='label' text='Cars:' />
+		<Control type='photoview' photos='{SELECT MEDIAID(r.fileref) FROM Reference_files r WHERE type="car"}' />
+		<Control type='label' text='Fruits:' />
+		<Control type='photoview' photos='{SELECT MEDIAID(r.fileref) FROM Reference_files r WHERE type="fruit"}' />
+	</Control>
+</Form>

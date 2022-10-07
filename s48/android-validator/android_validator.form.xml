@@ -1,0 +1,6 @@
+﻿<Form name='android_validator' sillyNulls='false' description='android_validator' autoform='true' typed='true' dateformat='(dtf yyyy&quot;-&quot;MM&quot;-&quot;dd&quot; &quot;HH&quot;:&quot;mm&quot;:&quot;ss&quot;.&quot;S)' numberformat='{decimalSeparator:&quot;.&quot;}'>
+  <Control type='panel' name='root'>
+    <Control type='textbox' ptype='int' label='Age: ' />
+    <Control type='combobox' label='Order: ' data_type='string' reference='SELECT "Beer" UNION ALL SELECT "Juice"' />
+  </Control>
+</Form>
