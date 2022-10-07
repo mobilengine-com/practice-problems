@@ -1,0 +1,25 @@
+server program SenderFormReplyTo for form SenderFormReplyToForm
+{
+    var rgTo = list.New();
+    foreach (var row in form.repTo.rows) {
+        var tbRecipient = row.tbRecipient.text;
+        if(tbRecipient != ""){
+            rgTo.Add(tbRecipient);
+        }
+    }
+    var rgAttach = list.New();
+    for (var i = 0; i<form.filupl.files.Count(); i=i+1) {
+        var file = form.filupl.files[i]; 
+        var fileref = form.filupl.filerefs[i]; 
+        rgAttach.Add({fileref: fileref.fileref, filename: file.name});
+    }
+
+    var email = {
+        recipients: rgTo,
+        subject: form.tbSubject.text,
+        body: form.taBody.text,
+        html: false,
+        attachments: rgAttach
+    };
+    smtp.SendEmail(email);
+}
