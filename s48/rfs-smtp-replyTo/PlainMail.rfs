@@ -1,4 +1,4 @@
-server program SenderFormReplyTo for form SenderFormReplyToForm
+server program PlainMail for form PlainMailForm
 {
     var rgTo = list.New();
     foreach (var row in form.repTo.rows) {
