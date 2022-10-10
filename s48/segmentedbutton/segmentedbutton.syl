@@ -1,0 +1,21 @@
+styles {
+    style proportional {
+		segmentedbutton {
+			segmentWidth = proportional
+		}
+	}
+    style equal {
+		segmentedbutton {
+		}
+	}
+	style widthAuto {
+		all {
+			content = widthAuto
+		}
+		segmentedbutton {
+			control {
+				width = auto
+			}
+		}
+	}
+}

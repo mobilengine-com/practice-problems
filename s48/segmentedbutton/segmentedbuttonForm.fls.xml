@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://schemas.mobilengine.com/fls/v2" id="segmentedbuttonForm" menuName="segmentedbutton" platforms="web ios" style='{styles.widthAuto}'>
+	<declarations>
+		<let id="dataYN" shape="table" value='{table key, text (1, "igen";2, "nem";3, "talán")}' />
+		<let id="data1" shape="table" value='{table key, text (1, "1"; 10, "10"; 100, "100")}' />
+		<let id="dataDay" shape="table" value='{table key, text (1, "Hétfő"; 2, "Kedd"; 3, "Szerda"; 4, "Csütörtök"; 5, "Péntek")}' />
+	</declarations>
+	<segmentedbutton label="kérsz?" choices='{select d.key, d.text from dataYN d}' keyMap='{key}' textMap='{text}' style='{styles.Default}' />
+	<segmentedbutton label="mennyit?" choices='{select d.key, d.text from data1 d}' keyMap='{key}' textMap='{text}' style='{styles.Default}' />
+	<segmentedbutton label="selectedSegment" choices='{select d.key, d.text from dataDay d}' keyMap='{key}' textMap='{text}' style='{styles.Default}' />
+</form>
+  
