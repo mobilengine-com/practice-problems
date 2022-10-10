@@ -1,0 +1,3 @@
+<form id='dash' menuName='dashboard' title='Dashboard' platforms='web ios' dashboard="true" xmlns='http://schemas.mobilengine.com/fls/v2'>
+	<textview label='User: ' text='{sysp.user}'/>
+</form>
