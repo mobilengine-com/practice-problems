@@ -1,0 +1,6 @@
+<form id="UserLang_practice" menuName="UserLang_practice" title='UserLang_practice' platforms="web ios"
+  xmlns="http://schemas.mobilengine.com/fls/v2">
+
+  <textview id='tv1' text='{sysp.user || " users language is: "}'/>
+
+</form>
