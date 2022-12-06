@@ -1,0 +1,37 @@
+styles {
+    style title {
+        textview {
+            fontSize = 36px
+            bold = true
+        }
+    }
+
+    style header {
+        all {
+            backgroundColor = FBFBFB
+        }
+        hbox {
+            content = title
+            sizes = 1, 0, 0
+            padding {
+                top = 0px
+                right = 6px
+                bottom = 0px
+                left = 0px
+            }
+        }
+    }
+
+    style content {
+        vbox {
+            height = 100%
+            sizes = 0, 1
+        }
+    }
+
+    style fit {
+        vbox {
+            sizes = 0
+        }
+    }
+}
