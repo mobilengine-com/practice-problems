@@ -1,0 +1,42 @@
+styles {
+    style blue {
+        all {
+            backgroundColor = E3F2FD
+        }
+    }
+
+    style green {
+        all {
+            backgroundColor = E8F5E9
+        }
+    }
+
+    // to remove the form's 6px left/right margin
+    style nomargin {
+        canvas {
+            margin {
+                top = 0px
+                right = 0px
+                bottom = 0px
+                left = 0px
+            }
+        }
+    }
+
+    style hbox {
+        hbox {
+            // allows the two halves to scroll independently,
+            // and also makes the hbox fill all available vertical space
+            height = 100%
+
+            sizes = 1 > 200px, 1
+        }
+    }
+
+    // makes sure that the right side is as high as all the textboxes
+    style vboxFit {
+        vbox {
+            sizes = 0
+        }
+    }
+}

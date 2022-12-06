@@ -1,0 +1,19 @@
+<form id='sidebar_layout' menuName='sidebar_layout' title='sidebar_layout' platforms='web' xmlns='http://schemas.mobilengine.com/fls/v2'>
+	<radiogroup keyMap='{v}' textMap='{v}' choices='{TABLE v ("Option 1"; "Option 2"; "Option 3"; "Option 4"; "Option 5"; "Option 6"; "Option 7"; "Option 8"; "Option 9"; "Option 10"; "Option 11"; "Option 12"; "Option 13"; "Option 14"; "Option 15"; "Option 16"; "Option 17"; "Option 18"; "Option 19"; "Option 20"; "Option 21"; "Option 22"; "Option 23"; "Option 24"; "Option 25"; "Option 26"; "Option 27"; "Option 28"; "Option 29"; "Option 30"; "Option 31"; "Option 32"; "Option 33"; "Option 34"; "Option 35"; "Option 36"; "Option 37"; "Option 38"; "Option 39"; "Option 40")}' />
+
+	<textview text='Lorem ipsum dolor sit amet...' />
+	<textview text='Porttitor lacus luctus accumsan tortor posuere ac ut consequat....' />
+	<textview text='Neque sodales ut etiam sit amet...' />
+	<textview text='Eget nunc lobortis mattis aliquam faucibus...' />
+	<textview text='Tellus rutrum tellus pellentesque eu tincidunt....' />
+	<textview text='Lorem ipsum dolor sit amet...' />
+	<textview text='Porttitor lacus luctus accumsan tortor posuere ac ut consequat....' />
+	<textview text='Neque sodales ut etiam sit amet...' />
+	<textview text='Eget nunc lobortis mattis aliquam faucibus...' />
+	<textview text='Tellus rutrum tellus pellentesque eu tincidunt....' />
+	<textview text='Lorem ipsum dolor sit amet...' />
+	<textview text='Porttitor lacus luctus accumsan tortor posuere ac ut consequat....' />
+	<textview text='Neque sodales ut etiam sit amet...' />
+	<textview text='Eget nunc lobortis mattis aliquam faucibus...' />
+	<textview text='Tellus rutrum tellus pellentesque eu tincidunt....' />
+</form>
