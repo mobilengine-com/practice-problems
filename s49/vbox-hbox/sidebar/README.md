@@ -13,6 +13,10 @@ Adj háttérszínt is a két oldalnak!
 4. Legyen a sidebar mérete legalább 200px, de szélesedjen a sidebar, ha van még hely.
 Ha hosszú szöveget raksz a contentbe, nő még a sidebar? Miért?
 
-5. A sidebar és a content együtt töltse ki az összes helyet!
+5. Ha a bal és a jobb oldal is 1-1 súlyozást kap, egyforma a két oldal mérete?
+És ha hosszú szöveg van valamelyik oldalon?
+Próbáld meg a képernyő szélességének felére állítani a bal oldal méretét!
 
-6. Próbáld ki a ki-be zoomolást is!
+6. A sidebar és a content együtt töltse ki az összes helyet!
+
+7. Próbáld ki a ki-be zoomolást is!
