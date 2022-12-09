@@ -1,0 +1,18 @@
+server program start_reports for schedule * * * * * first run at 2100-01-01 00:00
+using report report_a;
+using report report_b;
+{
+    // for testing the repmet settings
+    /*
+    reports.report_a.New().Run();
+    reports.report_b.New().Run();
+    reports.report_b.New().Run();
+    */
+
+    // overriding the repmet settings
+    for (var i = 0; i < 5; i = i + 1) {
+        var rep = reports.report_a.New();
+        rep.AllowParallel = (i != 2);
+        rep.Run();
+    }
+}

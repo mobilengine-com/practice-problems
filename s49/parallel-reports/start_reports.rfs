@@ -1,0 +1,7 @@
+server program start_reports for schedule * * * * * first run at 2100-01-01 00:00
+using report report_a;
+using report report_b;
+{
+    reports.report_a.New().Run();
+    reports.report_b.New().Run();
+}

@@ -1,0 +1,20 @@
+<ReportDefinition xmlns='http://schemas.mobilengine.com/repmet/v1'>
+	<Name>report_a</Name>
+	<Format>PDF</Format>
+	<Frequency>EachTimeANewDataRowArrives</Frequency>
+	<GenerateIfEmpty>true</GenerateIfEmpty>
+	<ColumnNameFrom>ControlName</ColumnNameFrom>
+	<ExcludeStaticLabels>true</ExcludeStaticLabels>
+	<IncludeTrackData>true</IncludeTrackData>
+	<UseLongtextForStringInMdb>true</UseLongtextForStringInMdb>
+	<Email>
+		<Recipients>
+			<To>nobody@mobilengine.com</To>
+		</Recipients>
+		<Attachment>my_attachment.pdf</Attachment>
+		<Subject>Your report is ready</Subject>
+	</Email>
+	<Filter>
+		<Form>report_form</Form>
+	</Filter>
+</ReportDefinition>
