@@ -1,0 +1,8 @@
+<form id="ios_form" menuName="ios_form" platforms="ios" xmlns="http://schemas.mobilengine.com/fls/v2">
+	<popup title="first_popup">
+		<textbox label='in_first_popup' formArea='in_first_popup'/>
+	</popup>
+	<popup title="second_popup">
+		<textbox label='in_second_popup' formArea='in_second_popup'/>
+	</popup>
+</form>

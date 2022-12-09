@@ -1,0 +1,5 @@
+server program trigger_sync_user for schedule * * * * * first run at 2100-01-01 00:00
+{
+	// Indíts syncet néhány usernek!
+	// Mi történik ha üres a userek listája?
+}

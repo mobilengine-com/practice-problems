@@ -1,0 +1,10 @@
+<Form name='android_form' sillyNulls='false' typed='true' inlineReference='true' dateformat='(dtf yyyy&quot;-&quot;MM&quot;-&quot;dd&quot; &quot;HH&quot;:&quot;mm&quot;:&quot;ss&quot;.&quot;S)' numberformat='{decimalSeparator:&quot;.&quot;}'>
+	<Control name='root' type='panel'>
+		<Control label='first_popup' type='panel' navigation='popup'>
+			<Control type='textbox' label='in_first_popup' formArea='in_first_popup' />
+		</Control>
+		<Control label='second_popup' type='panel' navigation='popup'>
+			<Control type='textbox' label='in_second_popup' formArea='in_second_popup' />
+		</Control>
+	</Control>
+</Form>

@@ -1,0 +1,34 @@
+server program open_form_area for schedule * * * * * first run at 2100-01-01 00:00
+{
+	// Küldj egy notificationt tetszőleges szöveggel.
+	// Oldd meg hogy ha a user rányom, akkor az android_form-ban az in_first_popup formarea jelenjen meg.
+	// Csináld ezt meg az iOS formra is.
+
+	SendNotification(
+		null,
+		{
+			title: {
+				default: "Tap to open android form"
+			},
+			body: {
+				default: "Will open the first_popup popup"
+			},
+			formToOpen: "android_form",
+			formArea: "in_first_popup"
+		}
+	);
+
+	SendNotification(
+		null,
+		{
+			title: {
+				default: "Tap to open iOS form"
+			},
+			body: {
+				default: "Will open the first_popup popup"
+			},
+			formToOpen: "ios_form",
+			formArea: "in_first_popup"
+		}
+	);
+}

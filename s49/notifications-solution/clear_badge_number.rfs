@@ -1,0 +1,18 @@
+server program clear_badge_number for schedule * * * * * first run at 2100-01-01 00:00
+{
+	// Küldj egy notificationt tetszőleges szöveggel.
+	// Állítsd be a badge értékét 0-ra, hogy eltűnjön a badge szám.
+
+	SendNotification(
+		null,
+		{
+			title: {
+				default: "Clear badge"
+			},
+			body: {
+				default: "Badge should be hidden now"
+			},
+			badge: 0
+		}
+	);
+}

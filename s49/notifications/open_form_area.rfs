@@ -1,0 +1,6 @@
+server program open_form_area for schedule * * * * * first run at 2100-01-01 00:00
+{
+	// Küldj egy notificationt tetszőleges szöveggel.
+	// Oldd meg hogy ha a user rányom, akkor az android_form-ban az in_first_popup formarea jelenjen meg.
+	// Csináld ezt meg az iOS formra is.
+}

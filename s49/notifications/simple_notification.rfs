@@ -1,0 +1,5 @@
+server program simple_notification for schedule * * * * * first run at 2100-01-01 00:00
+{
+	// Küldj egy egyszerű notificationt mindenkinek, tetszőleges szöveggel
+	// Próbálj nyelvesített title-t és message-et megadni!
+}
