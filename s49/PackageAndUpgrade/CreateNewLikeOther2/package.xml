@@ -1,0 +1,17 @@
+<package  xmlns="http://schemas.mobilengine.com/package/v1"
+	name="CreateNewLikeOther"
+    displayName="CreateNewLikeOther1"
+	version="2"
+	mobilengineVersion="49"
+>
+	<upgrade>
+		<version name="2"> 
+			<upgrade_sql>
+				<sql name="CreateNewLikeOther">
+					<table name="base" readonly="true"/>
+					<table name="copy"/>
+				</sql>
+			</upgrade_sql>
+		</version>
+	</upgrade>
+</package>

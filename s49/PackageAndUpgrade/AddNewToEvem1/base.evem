@@ -1,0 +1,6 @@
+<Event Name="base" xmlns="http://schemas.mobilengine.com/event/v1">
+    <Columns>
+      <Column Name="job" Type="Text" />
+      <Column Name="worker" Type="Text" AgentName="true" />
+    </Columns>
+</Event>

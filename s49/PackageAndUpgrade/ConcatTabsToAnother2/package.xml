@@ -1,0 +1,18 @@
+<package  xmlns="http://schemas.mobilengine.com/package/v1"
+	name="ConcatTabsToAnother"
+    displayName="ConcatTabsToAnother1"
+	version="2"
+	mobilengineVersion="49"
+>
+	<upgrade>
+		<version name="2"> 
+			<upgrade_sql>
+				<sql name="ConcatTabsToAnother">
+					<table name="base" readonly="true"/>
+					<table name="other" readonly="true"/>
+					<table name="concattab" readonly="true"/>
+				</sql>
+			</upgrade_sql>
+		</version>
+	</upgrade>
+</package>

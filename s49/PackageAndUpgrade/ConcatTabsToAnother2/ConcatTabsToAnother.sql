@@ -1,0 +1,1 @@
+INSERT INTO concattab (data1, data2, data3) SELECT data1,data2,data3 FROM base_old UNION SELECT data1,data2,data3 FROM other_old;

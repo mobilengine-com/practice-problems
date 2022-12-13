@@ -1,0 +1,16 @@
+<package  xmlns="http://schemas.mobilengine.com/package/v1"
+	name="AddNewColWithDataNotNull"
+    displayName="AddNewColWithDataNotNull2"
+	version="2"
+	mobilengineVersion="49"
+>
+<upgrade>
+	<version name="2"> 
+		<upgrade_sql>
+			<sql name="AddNewColWithDataNotNull">
+				<table name="base" />
+			</sql>
+		</upgrade_sql>
+	</version>
+</upgrade>
+</package>

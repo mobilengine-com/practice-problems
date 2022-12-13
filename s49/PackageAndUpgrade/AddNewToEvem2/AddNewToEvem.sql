@@ -1,0 +1,1 @@
+INSERT INTO base (job, worker) VALUES ("Carpenter","Joe");
