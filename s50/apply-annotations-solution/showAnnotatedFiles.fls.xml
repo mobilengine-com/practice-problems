@@ -1,0 +1,24 @@
+<form id='showAnnotatedFiles' menuName='showAnnotatedFiles' title='showAnnotatedFiles'
+  platforms='ios web'
+  xmlns='http://schemas.mobilengine.com/fls/v2'>
+
+  <header>
+    <discardbutton text='Back' />
+  </header>
+
+  <textview text='Newest annotated files are displayed first.' />
+
+  <table record='r'
+    recordset='{SELECT t.creationDate, t.pdfMediaId, t.imageMediaId FROM annotatedFiles t ORDER BY 1 DESC}'>
+    <row>
+      <cell>
+        <if cond='{r.pdfMediaId IS NOT NULL}'>
+          <filedownload fileref='{FILEREF(r.pdfMediaId, 0)}' text='Download PDF' />
+        </if>
+        <if cond='{r.imageMediaId IS NOT NULL}'>
+          <photoview photos='{SELECT r.imageMediaId}' />
+        </if>
+      </cell>
+    </row>
+  </table>
+</form>
