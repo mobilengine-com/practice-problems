@@ -1,3 +1,5 @@
 *.mes
 *.dpkg
 .cache
+mobilengine.ts
+tsconfig.json
