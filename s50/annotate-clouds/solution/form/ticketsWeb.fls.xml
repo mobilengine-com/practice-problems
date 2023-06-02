@@ -37,11 +37,6 @@ xmlns='http://schemas.mobilengine.com/fls/v2'>
 						<dropdown id='ddMixedPointColor' label='mixe point color' keyMap='{color}' textMap='{txt}' 
 							choices='{select c.color, c.txt from colors c}'
 							selectedKey='{"888888"}'/>
-						<checkbox id="chbAllowNew" label="allow new" checked="{true}"/>
-						<checkbox id="chbAllowNewPoint" label="allow new point" checked="{true}"/>
-						<checkbox id="chbAllowNewShape" label="allow new shape" checked="{true}"/>
-						<checkbox id="chbAllowNewDashedShape" label="allow new dashed shape" checked="{true}"/>
-						<checkbox id="chbAllowNewCloud" label="allow new cloud" checked="{true}"/>
 						<checkbox id="chbAllowSelection" label="allow selection" checked="{true}"/>
 					</popup>
 					<discardbutton text='Comp' nextForm='{forms.compareFloorplan}'><params><param id='guidFloorplan' value='{letFp.guid}' /></params></discardbutton>

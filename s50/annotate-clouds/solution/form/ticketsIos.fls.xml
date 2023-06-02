@@ -12,11 +12,6 @@
 		<param id="guidFloorplan"/>
 	</params>
 	<checkbox id="cbDebug" label="debug"/>
-	<checkbox id="cbAllowNew" label="new?" checked="{true}"/>
-	<checkbox id="cbAllowNewPoint" label="new point?" checked="{true}"/>
-	<checkbox id="cbAllowNewShape" label="new shape?" checked="{true}"/>
-	<checkbox id="cbAllowNewDashed" label="new dashed shape?" checked="{true}"/>
-	<checkbox id="cbAllowNewCloud" label="new cloud?" checked="{true}"/>
 	<checkbox id="cbAllowSelect" label="select?" checked="{true}"/>
 	<dropdown id='ddPointSelected' label='selected point' keyMap='{guid}' textMap='{description}' 
 		choices='{SELECT p.guid guid, t.description, t.category categoryId, p.ipage pageIndex, p.pctX xFraction, p.pctY yFraction, st.shape shape
