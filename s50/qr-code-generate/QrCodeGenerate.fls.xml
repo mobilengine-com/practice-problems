@@ -1,0 +1,4 @@
+<form id="QrCodeGenerate" menuName="QrCodeGenerate" title='QrCodeGenerate' platforms="web" xmlns="http://schemas.mobilengine.com/fls/v2">
+  <textbox id="input" label="text Input"/>
+  <photoview id="photoview1" label="QrCodes" photos='{SELECT p.mediaid FROM store p}' shareable="true"  />
+</form>
