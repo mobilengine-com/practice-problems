@@ -22,3 +22,5 @@ importáld be ezt a sample fileban, és használd a függvényt.
 Használj typescript típusokat, és írj dokumentációt is!
 Használd ezt a függvényt a másik fileban.
 Rfsben meg lehet ezt könnyen csinálni?
+
+Bónusz: Csinálj egy tesztet a függvényre!
