@@ -1,4 +1,4 @@
-import { hypotenuse } from "../util";
+import { hypotenuse } from "../solution/util";
 
 describe('testing hypotenuse', () => {
     test('simple test', () => {

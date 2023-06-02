@@ -19,7 +19,7 @@ import { myAddFunction, hypotenuse } from "./util";
 
     Log(["2+2 is ", myAddFunction(2, 2)]);
 
-    Log(["a=3, b=4, c=", hypotenuse(3, 3)]);
+    Log(["a=3, b=4, c=", hypotenuse(3, 4)]);
 
     const myMap = {a: 1, b: 2};
     const myMapA = myMap?.GetAt("a");
