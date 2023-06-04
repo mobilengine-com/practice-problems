@@ -1,0 +1,8 @@
+<Reftab Name="Tabs" xmlns="http://schemas.mobilengine.com/reftab/v1">
+  <Columns>
+    <Column Name="tab_id" Type="Integer" />
+    <Column Name="tab_name" Type="Text" />
+    <Column Name="tab_col_num" Type="Integer" />
+    <Column Name="tab_row_num" Type="Float" />
+  </Columns>
+</Reftab>

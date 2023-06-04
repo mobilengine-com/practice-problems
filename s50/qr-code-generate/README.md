@@ -1,4 +1,4 @@
-Qr kód generálsá feladat
+Qr kód generálás feladat
 ========================
 
 1. Generálj egy qrkódot a <b>".Generate()"</b> parancsal
