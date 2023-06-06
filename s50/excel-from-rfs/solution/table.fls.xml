@@ -1,7 +1,7 @@
-<form id="QrCodeGenerate" menuName="QrCodeGenerate" title='QrCodeGenerate' platforms="web" xmlns="http://schemas.mobilengine.com/fls/v2">
+<form id="ExcelContent" menuName="ExcelContent" title='ExcelContent' platforms="web" xmlns="http://schemas.mobilengine.com/fls/v2">
   <dropdown id="selected" label="Tab:" keyMap="{tab_id}" textMap="{tab_name}" choices='{SELECT a.tab_name, a.tab_id from Tabs a}' />
-  <table id='table3' label='Selected table content' record='gyumolcs' 
-           recordset='{select gy.gy_nev, gy.gy_ar, gy.gy_suly, gy.gy_tipus, gy.gy_szallitas from Gyumolcs gy where gy.gy_id == selected.selectedKey}'>
+  <table id='table3' label='Selected table content' record='exelData' 
+           recordset='{select gy.gy_nev, gy.gy_ar, gy.gy_suly, gy.gy_tipus, gy.gy_szallitas from exelData gy where gy.gy_id == selected.selectedKey}'>
         <header>
             <row>
                 <cell>
@@ -16,26 +16,32 @@
                 <cell>
                     <textview id='gy_suly_h' text="Gyümölcs súly"/>
                 </cell>
+                <cell>
+                    <textview id='gy_szallitas_h' text="Szállitás"/>
+                </cell>
             </row>
         </header>
         <row>
             <cell>
-                <textview id='gy_nev' text='{gyumolcs.gy_nev}'/> 
+                <textview id='gy_nev' text='{exelData.gy_nev}'/> 
             </cell>
             <cell>
-                <textview id='gy_tipus' text='{gyumolcs.gy_tipus}'/> 
+                <textview id='gy_tipus' text='{exelData.gy_tipus}'/> 
             </cell>
             <cell>
-                <numberbox id='gy_ar' number='{gyumolcs.gy_ar}' 
+                <numberbox id='gy_ar' number='{exelData.gy_ar}' 
                            numberFormat='{decimalSeparator: ",", groupSeparator: " ", groupSize: 3, maxFraction: 3}'/> 
             </cell>
             <cell>
-                <numberbox id='gy_suly' number='{gyumolcs.gy_suly}'
+                <numberbox id='gy_suly' number='{exelData.gy_suly}'
                            numberFormat='{decimalSeparator: ",", groupSeparator: " ", groupSize: 3, maxFraction: 3}'
                            float="true"/> 
             </cell>
             <cell>
-	            	<removebutton text='Remove' label="removebutton1"/>
+                <textview id="gy_szalitas" text='{formatDtl(exelData.gy_szallitas, (dtf yyyy"-"MM"-"dd" ("ddd") "hh":"mm":"ss" "tt ) )}' />
+            </cell>
+            <cell>
+	            	<removebutton text='Remove'/>
             </cell>
         </row>
     </table>

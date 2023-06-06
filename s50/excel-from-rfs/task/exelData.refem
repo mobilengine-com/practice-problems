@@ -1,0 +1,10 @@
+<Reftab Name="exelData" xmlns="http://schemas.mobilengine.com/reftab/v1">
+  <Columns>
+    <Column Name="gy_id" Type="Integer" />
+    <Column Name="gy_nev" Type="Text" />
+    <Column Name="gy_tipus" Type="Text" />
+    <Column Name="gy_ar" Type="Integer" />
+    <Column Name="gy_suly" Type="Float" />
+	<Column Name="gy_szallitas" Type="Date" DateFormat='(dtf yyyy "." MM "." dd)' />
+  </Columns>
+</Reftab>

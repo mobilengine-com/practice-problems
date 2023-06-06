@@ -1,0 +1,4 @@
+<form id="upload" menuName="upload" title='upload' platforms="web" xmlns="http://schemas.mobilengine.com/fls/v2">
+    <fileupload id="uploadXlsx" label="upload xlsx" acceptedMimetypes="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 
+																application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+</form>
