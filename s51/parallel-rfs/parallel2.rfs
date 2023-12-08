@@ -1,7 +1,7 @@
 server program 'parallel2' for schedule * * * * *
 first run at 2100-01-01 10:00
 {
-	trace "Parallel1 sleep start";
-	Sleep(1000);
-	trace "Parallel1 sleep end";
+	trace "Parallel2 sleep start";
+	Sleep(3000);
+	trace "Parallel2 sleep end";
 }
